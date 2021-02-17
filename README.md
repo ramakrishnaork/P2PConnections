@@ -1,2 +1,2 @@
 # P2PConnections
-Grad Project for 
+Grad Project for Networking
