@@ -10,10 +10,10 @@ port 'portno' setdirectory 'folderpath' connect 'ipaddress:port of node to conne
 Example commands:
 
 for initial node
-port 1000 setdirectory C:\Users\smada\Desktop\PA4Files\P1\ 
+port 1000 setdirectory pathname 
 
 to connect to first node
-port 2000 setdirectory C:\Users\smada\Desktop\PA4Files\P1\ connect localhost:1000 
+port 2000 setdirectory pathname connect localhost:1000 
  
 for query for filename abc.txt 
-port 1000 setdirectory C:\Users\smada\Desktop\PA4Files\P1\ connect localhost:2000 query abc.txt 2000 
+port 1000 setdirectory pathname connect localhost:2000 query abc.txt 2000 
